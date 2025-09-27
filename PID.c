@@ -14,6 +14,7 @@ typedef struct
 	int outcome_max; //输出最大值
 }PID;
 int a;
+int b;
 void PID_Init(PID* Pid, float Kp, float Ki, float Kd, float error_max, float integral_max, int outcome_max)
 {
 	Pid->Kp = Kp;

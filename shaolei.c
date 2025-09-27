@@ -17,7 +17,7 @@ void START() {
         }
     }
 }
-
+int ss;
 void BURY() {
     int sum;
     printf("请输入雷的数量：");
